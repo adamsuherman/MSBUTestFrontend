@@ -17,6 +17,11 @@ namespace MSBUTestFrontend.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult Index(IFormCollection collection)
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
